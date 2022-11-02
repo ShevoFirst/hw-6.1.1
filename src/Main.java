@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //Задание 1.
+        //Задание 1
         short month = 0;
         float total = 0;
         while (total < 2_459_000) {
