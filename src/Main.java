@@ -22,10 +22,10 @@ public class Main {
         }
         System.out.println();
         //Задание 3.
-        int y = 12_000_000;
+        int yPopulation = 12_000_000;
         for (int z = 1; z <= 10; z++) {
-            System.out.println("Год " + z + ", численность населения составляет " + y);
-            y += y / 1000 * (17 - 8);
+            System.out.println("Год " + z + ", численность населения составляет " + yPopulation);
+            yPopulation += yPopulation / 1000 * (17 - 8);
         }
         System.out.println();
         //Задание 4-6.
